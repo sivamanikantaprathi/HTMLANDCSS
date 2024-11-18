@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #347221, #d4b732);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #998993;
+  }
+  
+  /* Form Container */
+  form {
+    background: #c28e8e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  /* Input Field Styling */
+  form input[type="email"] {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  form input[type="email"]:focus {
+    border-color: #9b59b6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(155, 89, 182, 0.5);
+  }
+  
+  /* Button Styling */
+  form button {
+    width: 90%;
+    padding: 12px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background: linear-gradient(135deg, #9b59b6, #71b7e6);
+    box-shadow: 0 4px 10px rgba(155, 89, 182, 0.3);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    form {
+      padding: 20px;
+    }
+  
+    form h1 {
+      font-size: 1.5em;
+    }
+  
+    form input[type="email"], form button {
+      font-size: 0.9em;
+    }
+  }
+  
